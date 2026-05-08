@@ -102,6 +102,122 @@ adb shell rm -rf /data/data/com.tencent.ig/files/.system_android_l2 > nul 2>&1
 adb shell rm -rf /sdcard/Android/data/com.tencent.ig/cache/* > nul 2>&1
 adb shell rm -rf /sdcard/Android/data/com.tencent.ig/files/.system_android_l2 > nul 2>&1
 adb shell rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*.json > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/conversation.ini > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/MMKV > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/iTOPPrefs.sav
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LoginInfoFile.json
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LobbyBubble
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Lobby
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Login
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/playerprefs.sav
+adb shell rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Cached.sav
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs1 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs0 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/databases > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/shared_prefs > nul 2>&1
+adb shell mkdir /data/data/com.pubg.krmobile/shared_prefs > nul 2>&1
+adb shell chmod -R 777 /data/data/com.pubg.krmobile/shared_prefs > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/databases/* > nul 2>&1
+adb shell mv /data/data/com.pubg.krmobile/shared_prefs/device_id3.xml /data/data/com.pubg.krmobile/shared_prefs/device_id.xml > nul 2>&1
+adb shell touch /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/code_cache > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/app_bugly > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/app_crashrecord > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/app_databases > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/app_webview > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/cache > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/files > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/no_backup > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/cache > nul 2>&1
+adb shell rm -f /sdcard/Android/data/com.pubg.krmobile/files/.fff > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/*.fff > nul 2>&1
+adb shell rm -f /sdcard/Android/data/com.pubg.krmobile/files/ca-bundle.pem > nul 2>&1
+adb shell rm -rf "/sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/Epic Games" > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/login-identifier.txt > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/TGPA > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/app_textures > nul 2>&1
+adb shell rm -rf /data/media/0/.backups/com.pubg.krmobile > nul 2>&1
+adb shell rm -f "/sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini" > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/cache/* > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/code_cache/* > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/shared_prefs/* > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/databases/* > nul 2>&1
+adb shell rm -rf /data/data/com.pubg.krmobile/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/cache/* > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*.json > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/conversation.ini > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/MMKV > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata > nul 2>&1
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/iTOPPrefs.sav
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LoginInfoFile.json
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LobbyBubble
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Lobby
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Login
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/playerprefs.sav
+adb shell rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Cached.sav
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs1 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs0 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/databases > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/shared_prefs > nul 2>&1
+adb shell mkdir /data/data/com.rekoo.pubgm/shared_prefs > nul 2>&1
+adb shell chmod -R 777 /data/data/com.rekoo.pubgm/shared_prefs > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/databases/* > nul 2>&1
+adb shell mv /data/data/com.rekoo.pubgm/shared_prefs/device_id3.xml /data/data/com.rekoo.pubgm/shared_prefs/device_id.xml > nul 2>&1
+adb shell touch /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/code_cache > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/app_bugly > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/app_crashrecord > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/app_databases > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/app_webview > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/cache > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/files > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/no_backup > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/cache > nul 2>&1
+adb shell rm -f /sdcard/Android/data/com.rekoo.pubgm/files/.fff > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/*.fff > nul 2>&1
+adb shell rm -f /sdcard/Android/data/com.rekoo.pubgm/files/ca-bundle.pem > nul 2>&1
+adb shell rm -rf "/sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/Epic Games" > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/login-identifier.txt > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/TGPA > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/app_textures > nul 2>&1
+adb shell rm -rf /data/media/0/.backups/com.rekoo.pubgm > nul 2>&1
+adb shell rm -f "/sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini" > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/cache/* > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/code_cache/* > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/shared_prefs/* > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/databases/* > nul 2>&1
+adb shell rm -rf /data/data/com.rekoo.pubgm/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/cache/* > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/.system_android_l2 > nul 2>&1
+adb shell rm -rf /sdcard/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*.json > nul 2>&1
 goto resume2
 
 :Pseudo
