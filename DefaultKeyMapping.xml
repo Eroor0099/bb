@@ -21306,7 +21306,7 @@
 </KeyMapMode>
 </Item>
 
-<Item ApkName="com.tencent.igce" 备注="刺激战场日韩服">
+<Item ApkName="com.pubg.imobile" 备注="刺激战场日韩服">
 <StartInfo StartTimes="21"/>
 <LastMode ModeID="1" EnableTips="0" EnableGameKeyDT="0" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0"/>
 <KeyMapMode ModeID="1" Name="Normal">
@@ -21320,7 +21320,7 @@
 </KeyMapMode>
 </Item>
 
-<ItemEx ApkName="com.tencent.igce" 备注="绝地求生——刺激战场国际版（韩服）" VersionCode="11271">
+<ItemEx ApkName="com.pubg.imobile" 备注="绝地求生——刺激战场国际版（韩服）" VersionCode="11271">
 <LastMode ModeID="1" EnableTips="0" TipsTransparent="0.500000" Lightness="1.000000" ExitFullScreenKey="122" EnableGameKeyDT="1"/>
 <VersionInfo Version="34" ReqFeatureVer="7"/>
 <Switch Name="DoorOpen" TextureId="1"  	comm="开门"/>
@@ -67792,7 +67792,7 @@ DOWN_AsciiCode="83" LEFT_AsciiCode="65" RIGHT_AsciiCode="68" Offset="0.087805"/>
 </ItemEx>
 
 
-<Item ApkName="com.tencent.igce_ss" 备注="绝地求生——刺激战场韩服" >
+<Item ApkName="com.pubg.imobile_ss" 备注="绝地求生——刺激战场韩服" >
 <LastMode ModeID="1" EnableTips="0" TipsTransparent="0.500000" Lightness="1.000000" ExitFullScreenKey="122" EnableGameKeyDT="1"/>
 <VersionInfo Version="40" ReqFeatureVer="7"/>
 <Switch Name="DoorOpen" TextureId="1"  	comm="开门"/>
@@ -69772,7 +69772,7 @@ DOWN_AsciiCode="83" LEFT_AsciiCode="65" RIGHT_AsciiCode="68" Offset="0.087805"/>
 </Resolution_16x10>
 </Item>
 
-<ItemEx ApkName="com.tencent.igce_ss" 备注="绝地求生——刺激战场国际版" VersionCode="14459">
+<ItemEx ApkName="com.pubg.imobile_ss" 备注="绝地求生——刺激战场国际版" VersionCode="14459">
 <LastMode ModeID="1" EnableTips="0" TipsTransparent="0.500000" Lightness="1.000000" ExitFullScreenKey="122" EnableGameKeyDT="1"/>
 <VersionInfo Version="41" ReqFeatureVer="7"/>
 <Switch Name="DoorOpen" TextureId="1"  	comm="开门"/>
